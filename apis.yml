@@ -1,8 +1,28 @@
 aid: fusion-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusion-io.png
 name: Fusion-io
-description: 'Fusion-io is a company surfaced as a portfolio company of accel, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Fusion-io was a computer hardware and software systems company founded in 2005
+  in Salt Lake City, Utah, that pioneered PCIe-based flash memory (NAND) storage
+  for enterprise data centers under the ioMemory, ioDrive, ioFX and ioScale product
+  lines. Steve Wozniak served as its Chief Scientist. The company IPO'd on the NYSE
+  under the ticker FIO in June 2011 and was acquired by SanDisk in 2014 for roughly
+  1.1 billion dollars; SanDisk (and the Fusion-io technology) was in turn acquired by
+  Western Digital in 2016. It was venture-backed by New Enterprise Associates,
+  Lightspeed Venture Partners and Accel. Fusion-io no longer operates as an independent
+  company and publishes no public developer API surface. This profile is retained in the
+  API Evangelist network as a historical company record.
 url: https://raw.githubusercontent.com/api-evangelist/fusion-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,30 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: acquired-by-sandisk-2014-then-western-digital-2016
+x-founded: '2005'
+x-headquarters: Salt Lake City, Utah, United States
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Manufacturing
+- Storage
+- Flash Memory
+- Enterprise Hardware
+- Data Center
+- Semiconductors
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
